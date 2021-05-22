@@ -44,15 +44,31 @@ div {
     background: white;
     display: inline-block;
     margin-right: 30px;
+    background: #e67e22;
 }
 .row {
     margin-bottom: 30px;
 }
 .green {
-    background: #78c272;
+    background: #6392c0;
 }
 .fancy {
     border: 3px inset rgba(74, 74, 74, 0.25);
     width: 54px;
     height: 54px;
+    border-style: dotted;
+    background: #6392c0;
 }
+.red {
+    background: #de6868;
+}
+#container .row .circle:first-child {
+    opacity: 0;
+}
+.circle:hover {
+    opacity: 0.5;
+}
+#container #second-row .circle:hover{
+    transform: scale(1.25);
+}
+
