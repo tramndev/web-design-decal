@@ -14,7 +14,11 @@ body {
 #q1-navbar {
 	background: #364156;
 	color: white;
-
+	display: flex;
+	flex-direction: row;
+}
+.nav-item {
+	padding: 10px;
 }
 
 
@@ -64,6 +68,10 @@ body {
 #q2-container {
 	width: 100vw;
 	height:100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .q2-big-box {
@@ -72,6 +80,10 @@ body {
 	border-radius: 4px;
 	width: 200px;
 	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .q2-tiny-box {
@@ -81,6 +93,7 @@ body {
 	font-size: 0.5em;
 	padding: 8px 4px;
 	margin: 2px;
+	width: 30px;
 }
 
 
