@@ -25,3 +25,16 @@ body, html {
     background: #f7f5f2;
     position: relative;
 }
+
+.button:hover {
+    animation: bounce 0.5s alternate-reverse;
+}
+
+.button:hover {
+    animation: bounce 0.5s reverse;
+}
+
+@keyframes bounce {
+    from {}
+    to {transform: rotate(360deg); opacity: 1; border-radius: 50% }
+}
